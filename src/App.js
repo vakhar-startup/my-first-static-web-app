@@ -31,23 +31,7 @@ import {
 
 
 const HomePage = () => {
-  const handleGetStarted = () => {
-    // Redirect to login or signup page
-    window.location.href = '/login';
-  };
 
-  const handleWatchDemo = () => {
-    // Open demo modal or redirect to demo page
-    window.location.href = '/demo';
-  };
-
-  const handleSignup = () => {
-    window.location.href = '/signup';
-  };
-
-  const handleContactSales = () => {
-    window.location.href = '/contact';
-  };
 
   return (
     <div className="min-h-screen bg-gray-50">
